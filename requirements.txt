@@ -1,4 +1,4 @@
 Flask
-webdriver manager
+webdriver-manager
 selenium
 pytest
