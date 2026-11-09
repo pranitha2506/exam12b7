@@ -6,7 +6,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo "Build Docker Image"
-                bat "docker build -t demoapp:v1 ."
+                bat "docker build -t kubedemoapp:v1 ."
             }
         }
         stage('Docker Login') {
